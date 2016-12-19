@@ -1,0 +1,38 @@
+--- 
++ preprocessar texto de entrada
++ imprimir melhor caso
++ mandar email pro pessoal dos artigos
++ colocar ? em espaço no bloco
++ colocar * em espaço no texto
++ imprimir o alinhamento
+
+--- 
++ Revisar algoritmo
++ forçar espaço quando ? no alinhamento
++ sempre que encontrar ? altera para espaço
++ DÚVIDA: alterar caracter '-' no alinhamento?!
++ DÚVIDA: verificar o tamanho da maior linha para acrescentar espaços nas demais linhas menores
+
++ Problema é com a verificação do '?' no bloco
++ Criar outra sequencia de bloco com '?' auxiliar para verificar o '?'
++ Problema deve estar na construção do alinhamento
+
+--- 
++ Manter algoritmo original
++ Colocar método print de novo (antiga)
++ Comparar textos de mesma área e não
+- Observar scores iguais (imprimir todos os máximos)
+
+--- 
++ Não fazer processamento de texto
++ Trocar caracteres do bloco por '?' manualmente
++ Fazer teste com textos de outro assunto
++ Fazer teste com textos de mesmo assunto com bloco não retirado dos textos
++ Fazer teste com textos de mesmo assunto com bloco retirado dos textos
+
+--- Testes realizados
++ 10 textos do tipo earn e 10 do tipo trade
++ Blocos do mesmo tipo de texto sendo um retirado do texto e outro não
+
+--- 
+- Contar o número de '?' corretos

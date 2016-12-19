@@ -1,0 +1,21 @@
+- Ancient Lives
+http://www.papyrology.ox.ac.uk/Ancient_Lives/
+http://www.papyrology.ox.ac.uk/POxy/papyri/the_papyri.html
+http://163.1.169.40/cgi-bin/library?site=localhost&a=p&p=about&c=POxy&ct=0
+https://www.ancientlives.org/
+https://archive.org/details/papyrusdorbineyb00britrich
+
+- eAQUA
+http://eaqua.e-humanities.net/
+https://wiki.digitalclassicist.org/EAqua-Project
+https://projects.eclipse.org/projects/modeling.mdt.papyrus
+https://git.eclipse.org/r/#/q/status%3Aopen+project%3Apapyrus/org.eclipse.papyrus-designer
+
+http://tebtunis.berkeley.edu/collection/database
+http://www.columbia.edu/cu/lweb/projects/digital/apis/search/index.html
+http://papyri.info/
+
+--- Dados
+- Egypt Exploration Society
+- Ancient Lives Project
+- Oxyrhynchus Online
