@@ -1,0 +1,81 @@
+----- 'nana' -----
+
+similarity: 0
+--maça
+nana---
+
+similarity: 0
+--daniel
+nana----
+
+similarity: 4
+banana
+--nana
+
+similarity: 2
+azeitona--
+------nana
+
+similarity: 0
+morango
+--nana-
+
+
+
+
+
+
+----- 'niel' -----
+
+similarity: 0
+maça----
+-----niel
+
+similarity: 4
+daniel
+--niel
+
+similarity: 0
+banana----
+------niel
+
+similarity: 0
+azeitona----
+--------niel
+
+similarity: 0
+morango----
+-------niel
+
+
+
+
+
+
+----- 'ça' -----
+
+similarity: 3
+maça
+--ça
+
+similarity: 0
+-daniel
+ça----
+
+similarity: 0
+-banana
+ça----
+
+similarity: 1
+--azeitona
+ça-------
+
+similarity: 0
+morango---
+-------ça
+
+
+
+
+
+
