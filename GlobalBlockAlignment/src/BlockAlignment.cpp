@@ -347,8 +347,8 @@ BlockAlignment::print()
 	// cout << similarity[i][0] << "\t" << similarity[i][1] << "\t" << similarity[i][2] << endl;
 	// cout << endl;
 
-	// cout << "\n> Best result and coordinate for files " << textFileName << " and " << blockFileName << endl;
-	// cout << "S\tN\tM\n-----------------\n";
+	cout << "\n> Best result and coordinate for files " << textFileName << " and " << blockFileName << endl;
+	cout << "S\tN\tM\n-----------------\n";
 	cout << similarity[iMax][0] << "\t" << similarity[iMax][1] << "\t" << similarity[iMax][2] << endl << endl;
 
 	// Hits for ? chars
@@ -408,7 +408,7 @@ BlockAlignment::print()
 	// cout << "\n> Block (best alignment)" << endl << bestResult[1] << endl;
 
 
-	cout << "> Best alignment for files " << textFileName << " and " << blockFileName << endl;
+	// cout << "> Best alignment for files " << textFileName << " and " << blockFileName << endl;
 	
 	#ifndef breakLine
 	#define breakLine
@@ -425,43 +425,45 @@ BlockAlignment::print()
 
 	for (int i = 0; i < sequenceSize; i += breakLine)
 	{
-		int longerFileName = (int)textFileName.length();
+		// int longerFileName = (int)textFileName.length();
 
-		if ((int)blockFileName.length() > longerFileName)
-		{
-			longerFileName = (int)blockFileName.length();
-			cout << textFileName << " ";
-			for (int i = 0; i < (int)blockFileName.length() - (int)textFileName.length(); ++i)
-			{
-				cout << " ";
-			}
+		// if ((int)blockFileName.length() > longerFileName)
+		// {
+		// 	longerFileName = (int)blockFileName.length();
+		// 	cout << textFileName << " ";
+		// 	for (int i = 0; i < (int)blockFileName.length() - (int)textFileName.length(); ++i)
+		// 	{
+		// 		cout << " ";
+		// 	}
 
-			cout << bestResult[0].substr(i, breakLine) << endl;
-		}
+		// 	cout << bestResult[0].substr(i, breakLine) << endl;
+		// }
 
-		else
-			cout << textFileName << " " << bestResult[0].substr(i, breakLine) << endl;
+		// else
+		// 	cout << textFileName << " " << bestResult[0].substr(i, breakLine) << endl;
 
 
-		for (int j = 0; j < longerFileName + 1; ++j)
-		{
-			cout << " ";
-		}
+		// for (int j = 0; j < longerFileName + 1; ++j)
+		// {
+		// 	cout << " ";
+		// }
 
-		for (int j = 0; j < (int)(bestResult[0].substr(i, breakLine)).length(); ++j)
-		{
-			if(bestResult[0][j+i] == bestResult[1][j+i])
-				cout << "|";
+		// for (int j = 0; j < (int)(bestResult[0].substr(i, breakLine)).length(); ++j)
+		// {
+		// 	if(bestResult[0][j+i] == bestResult[1][j+i])
+		// 		cout << "|";
 
-			else if(bestResult[0][j+i] == '-' || bestResult[1][j+i] == '-')
-				cout << " ";
+		// 	else if(bestResult[0][j+i] == '-' || bestResult[1][j+i] == '-')
+		// 		cout << " ";
 
-			else
-				cout << "!";
-		}
+		// 	else
+		// 		cout << "!";
+		// }
 
-		cout << endl;
+		// cout << endl;
 
-		cout << blockFileName << " " << bestResult[1].substr(i, breakLine) << endl;
+		// cout << blockFileName << " " << bestResult[1].substr(i, breakLine) << endl;
 	}
+
+	cout << "\n\n\n";
 }

@@ -84,10 +84,10 @@ int main(int argc, char const *argv[])
 	{
 		int minutes = totalTime / 60;
 		double seconds = totalTime - (minutes * 60);
-		printf("> Total time taken: %dm%.3fs\n", minutes, seconds);
+		// printf("> Total time taken: %dm%.3fs\n", minutes, seconds);
 	}
 
-	else printf("\n> Total time taken: 0m%.3fs\n\n", totalTime);
+	// else printf("\n> Total time taken: 0m%.3fs\n\n", totalTime);
 
 	return 0;
 }

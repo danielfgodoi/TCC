@@ -21,7 +21,7 @@ public:
 	{
 		this->textFileNameList = textFileNameList;
 		this->blockFileName = blockFileName;
-		bestResult.resize(2);
+		// bestResult.resize(2);
 	};
 
 	// Default destructor
@@ -49,11 +49,12 @@ private:
 	vector<string> blockSequence;
 	string textSequenceResult;
 	string blockSequenceResult;
-	vector<string> bestResult;
+	vector<vector<string> > bestResult;
 	vector<vector<char> > textData;
 	vector<vector<char> > blockData;
 	
-	int similarity; // stores the similarities
+	vector<int> similarity; // stores the similarities
+	vector< vector<int> > bestLine; // stores the best text and block lines
 
 	vector< vector<int> > alignment; // stores the alignments matrix
 
@@ -69,7 +70,7 @@ private:
 
 	void getSequence(int n, int m);
 	
-	void globalAlignment(string textSequence, string blockSequence);
+	// void globalAlignment(string textSequence, string blockSequence);
 	void localAlignment(string textSequence, string blockSequence);
 	
 	int score(const char a, const char b);
