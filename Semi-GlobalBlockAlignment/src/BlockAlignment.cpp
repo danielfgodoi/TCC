@@ -82,6 +82,8 @@ BlockAlignment::prepareBlock()
 void
 BlockAlignment::align()
 {
+	readFile(originalBlockFileName, originalBlockData);
+
 	int i, j, k; // loop iterators
 	int t, b; // text and block iterators
 
@@ -329,19 +331,9 @@ BlockAlignment::print()
 		// cout << endl;
 
 		cout << "\n> Best result and text-block best line " << textFileName << " and " << blockFileName << endl;
-		cout << "S\tN\tM\n-----------------\n";
+		cout << "S\tTL\tBL\n-----------------\n";
 		// cout << similarity[iMax][0] << "\t" << similarity[iMax][1] << "\t" << similarity[iMax][2] << endl << endl;
 		cout << similarity[r] << "\t" << bestLine[r][0] << "\t" << bestLine[r][1] << endl << endl;
-
-		// Hits for ? chars
-		int hits = 0;
-		int j = 0;
-		
-		// Earn
-		// char chars[] = "rost loss of setderricuriondi so of t notesilpoo wneton raostri ro si-";
-		
-		// Trade
-		// char chars[] = "aprn erly ly un int t haablxibanctt jes ra ily ";
 
 		int sequenceSize = bestResult[r][0].size();
 
@@ -446,6 +438,55 @@ BlockAlignment::print()
 
 			// cout << blockFileName << " " << bestResult[r][1].substr(i, breakLine) << endl;
 		}
+
+	// Verify is going to be here because we go through the bestResults array
+	int chars = 0;
+	int hits = 0;
+
+	string original;
+
+	// Concatenate originalBlockData
+
+	int i = bestLine[r-1][1];
+	for (int j = 0; j < originalBlockData[i].size(); ++j)
+	{
+		original += originalBlockData[i][j];
+	}
+
+	// Calculate shift
+	int shift = 0;
+	while (bestResult[r][1][shift] == '-')
+	{
+		++shift;
+	}
+
+	for (int i = 0, j = shift; i < original.size(); ++i, ++j)
+	{
+		// cout << bestResult[r][0][j];
+		// cout << original[i];
+
+		if (bestResult[r][1][j] == '?')
+		{
+			++chars;
+
+			if (bestResult[r][0][j] == original[i])
+			{
+				++hits;
+			}
+		}
+	}
+
+	// cout << bestResult[r][0] << endl;
+	// cout << bestResult[r][1] << endl;
+	// for (int i = 0; i < shift; ++i)
+	// {
+	// 	cout << " ";
+	// }
+	// cout << original << endl << endl;
+
+	cout << "Number of chars ?: " << chars << endl;
+	cout << "Numer of hits: " << hits << endl;
+	cout << "Hits percentage: " << (double)hits*100/chars << "%" << endl << endl;
 
 	cout << "\n\n\n";
 	}

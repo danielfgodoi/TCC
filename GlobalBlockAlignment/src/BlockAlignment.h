@@ -17,10 +17,11 @@ class BlockAlignment
 {
 public:
 	// Class constructor
-	BlockAlignment(vector<string> textFileNameList, string blockFileName)
+	BlockAlignment(vector<string> textFileNameList, string blockFileName, string originalBlockFileName)
 	{
 		this->textFileNameList = textFileNameList;
 		this->blockFileName = blockFileName;
+		this->originalBlockFileName = originalBlockFileName;
 		bestResult.resize(2);
 	};
 
@@ -43,6 +44,7 @@ private:
 	vector<string> textFileNameList;
 	string textFileName;
 	string blockFileName;
+	string originalBlockFileName;
 	string textSequence;
 	string blockSequence;
 	string textSequenceResult;
@@ -51,6 +53,7 @@ private:
 
 	vector<vector<char> > textData;
 	vector<vector<char> > blockData;
+	vector<vector<char> > originalBlockData;
 	// vector<string> textData;
 	// vector<string> blockData;
 	
@@ -59,7 +62,8 @@ private:
 
 	// Methods
 	void print();
-	void readFile(string fileName,  vector<vector<char> > &fileData, int &maxN, int &maxM, char type);
+	void verify();
+	void readFile(string fileName,  vector<vector<char> > &fileData);
 	// void readFile(string fileName,  vector<string> &fileData, int &maxN, int &maxM, char type);
 	void setBlockSize();
 	void setTextSize();

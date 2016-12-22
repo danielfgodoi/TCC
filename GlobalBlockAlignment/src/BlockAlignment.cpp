@@ -2,7 +2,7 @@
 #define breakLine 50
 
 inline void
-BlockAlignment::readFile(string fileName,  vector<vector<char> > &fileData, int &maxN, int &maxM, char type)
+BlockAlignment::readFile(string fileName,  vector<vector<char> > &fileData)
 {
 	fileData.clear();
 	// ifstream file(fileName, ios::in | ios::binary | ios::ate);
@@ -13,17 +13,6 @@ BlockAlignment::readFile(string fileName,  vector<vector<char> > &fileData, int 
 		ifstream::pos_type fileSize = file.tellg();
 		file.seekg(0, ios::beg);
 		std::vector<char> data;
-		char c;
-
-		if (type == 'b')
-		{
-			c = '?';
-		}
-
-		else
-		{
-			c = '*';
-		}
 
 		int i = 1;
 		string line;
@@ -114,8 +103,11 @@ BlockAlignment::getSequence(int n, int m)
 void
 BlockAlignment::align()
 {
+	// Original block
+	readFile(originalBlockFileName, originalBlockData);
+
 	// Block
-	readFile(blockFileName, blockData, blockSizeN, blockSizeM, 'b');
+	readFile(blockFileName, blockData);
 	setBlockSize();
 	for (int i = 0; i < blockSizeN; ++i)
 		for (int j = 0; j < blockSizeM; ++j)
@@ -127,7 +119,7 @@ BlockAlignment::align()
 		// Text
 		textFileName = textFileNameList[k];
 		// cout << "\nStarting alignment for " << textFileName << " and " << blockFileName << endl;
-		readFile(textFileName, textData, textSizeN, textSizeM, 't');
+		readFile(textFileName, textData);
 		setTextSize();
 
 		if (blockSizeN > textSizeN || blockSizeM > textSizeM)
@@ -183,6 +175,7 @@ BlockAlignment::align()
 
 		++k;
 		print();
+		verify();
 	}	
 }
 
@@ -211,43 +204,13 @@ BlockAlignment::globalAlignment(string textSequence, string blockSequence)
 	{
 		for (j = 1; j < m; ++j)
 		{
-			// if (blockSequence[j-1] == '?')
-			// {
-			// 	// alignment[i][j] = max(
-			// 	// 	alignment[i-1][j] + score(textSequence[i-1], '-'),
-			// 	// 	alignment[i][j-1] + score('-', blockSequence[j-1]),
-			// 	// 	INT_MIN
-			// 	// );
-
-			// 	alignment[i][j] = alignment[i-1][j] + score(textSequence[i-1], '-');
-				
-			// 	// Do not increment j once it's inside a for loop
-			// 	// ++j;
-			// }
-
-			// else
-				alignment[i][j] = max(
-					alignment[i-1][j] + score(textSequence[i-1], '-'),
-					alignment[i-1][j-1] + score(textSequence[i-1], blockSequence[j-1]),
-					alignment[i][j-1] + score('-', blockSequence[j-1])
-				);
+			alignment[i][j] = max(
+				alignment[i-1][j] + score(textSequence[i-1], '-'),
+				alignment[i-1][j-1] + score(textSequence[i-1], blockSequence[j-1]),
+				alignment[i][j-1] + score('-', blockSequence[j-1])
+			);
 		}
 	}
-
-	// for (i = 0; i < n; ++i)
-	// {
-	// 	for (j = 0; j < m; ++j)
-	// 	{
-	// 		cout << alignment[i][j] << "\t";
-	// 	}
-
-	// 	cout << endl;
-	// }
-
-	// cout << endl;
-
-	// exit(1);
-	// Problema deve estar na construção do alinhamento
 
 	// Get similarity
 	similarity[sIterator][0] = alignment[n-1][m-1];
@@ -341,129 +304,98 @@ BlockAlignment::max(int a, int b, int c)
 inline void
 BlockAlignment::print()
 {
-	// cout << "\nFinished alignment with " << numberOfSequences << " sequences" << endl;
-	// cout << "S\tN\tM\n-----------------\n";
-	// for (int i = 0; i < numberOfSequences; ++i)
-	// cout << similarity[i][0] << "\t" << similarity[i][1] << "\t" << similarity[i][2] << endl;
-	// cout << endl;
-
 	cout << "\n> Best result and coordinate for files " << textFileName << " and " << blockFileName << endl;
 	cout << "S\tN\tM\n-----------------\n";
 	cout << similarity[iMax][0] << "\t" << similarity[iMax][1] << "\t" << similarity[iMax][2] << endl << endl;
 
-	// Hits for ? chars
-	int hits = 0;
-	int j = 0;
-	
-	// Earn
-	// char chars[] = "rost loss of setderricuriondi so of t notesilpoo wneton raostri ro si-";
-	
-	// Trade
-	char chars[] = "aprn erly ly un int t haablxibanctt jes ra ily ";
-
 	int sequenceSize = bestResult[0].size();
-
-	for (int i = 0; i < sequenceSize; ++i)
-	{
-		if (bestResult[1][i] == '?')
-		{
-			if (bestResult[0][i] == chars[j])
-			{
-				++hits;
-			}
-
-			++j;
-		}
-	}
-
-	double percent = ((double)hits / 47) * 100;
-
-	// cout << "Hits for ? chars: " << hits << " of 47" << endl;
-	// cout << "Hits percentage: ";
-	// cout << setprecision(3) << percent;
-	// cout << "%" << endl << endl;
-
-	// cout << "> Text (best window)\n";
-	// for (int i = similarity[iMax][1]; i < similarity[iMax][1] + blockSizeN; ++i)
-	// {
-	// 	for (int j = similarity[iMax][2]; j < similarity[iMax][2] + blockSizeM; ++j)
-	// 	{
-	// 		cout << textData[i][j];
-	// 	}
-	// 	cout << endl;
-	// }
-	
-	// cout << "\n> Block (best window)\n";
-	// for (int i = 0; i < blockSizeN; ++i)
-	// {
-	// 	for (int j = 0; j < blockSizeM; ++j)
-	// 	{	
-	// 		cout << blockData[i][j];
-	// 	}
-	// 	cout << endl;
-	// }
-
-	// Print best alignment
-	// cout << "\n> Text (best alignment)" << endl << bestResult[0] << endl;
-	// cout << "\n> Block (best alignment)" << endl << bestResult[1] << endl;
-
-
-	// cout << "> Best alignment for files " << textFileName << " and " << blockFileName << endl;
 	
 	#ifndef breakLine
 	#define breakLine
 	int breakLine = 150;
 	#endif
-	
-	// for (int i = 0; i < sequenceSize; ++i)
-	// {
-		// Text sequence best result
-		// cout << bestResult[0][i];
-		// Block sequence best result
-		// cout << bestResult[1][i];
-	// }
 
 	for (int i = 0; i < sequenceSize; i += breakLine)
 	{
-		// int longerFileName = (int)textFileName.length();
+		int longerFileName = (int)textFileName.length();
 
-		// if ((int)blockFileName.length() > longerFileName)
-		// {
-		// 	longerFileName = (int)blockFileName.length();
-		// 	cout << textFileName << " ";
-		// 	for (int i = 0; i < (int)blockFileName.length() - (int)textFileName.length(); ++i)
-		// 	{
-		// 		cout << " ";
-		// 	}
+		if ((int)blockFileName.length() > longerFileName)
+		{
+			longerFileName = (int)blockFileName.length();
+			cout << textFileName << " ";
+			for (int i = 0; i < (int)blockFileName.length() - (int)textFileName.length(); ++i)
+			{
+				cout << " ";
+			}
 
-		// 	cout << bestResult[0].substr(i, breakLine) << endl;
-		// }
+			cout << bestResult[0].substr(i, breakLine) << endl;
+		}
 
-		// else
-		// 	cout << textFileName << " " << bestResult[0].substr(i, breakLine) << endl;
+		else
+			cout << textFileName << " " << bestResult[0].substr(i, breakLine) << endl;
 
 
-		// for (int j = 0; j < longerFileName + 1; ++j)
-		// {
-		// 	cout << " ";
-		// }
+		for (int j = 0; j < longerFileName + 1; ++j)
+		{
+			cout << " ";
+		}
 
-		// for (int j = 0; j < (int)(bestResult[0].substr(i, breakLine)).length(); ++j)
-		// {
-		// 	if(bestResult[0][j+i] == bestResult[1][j+i])
-		// 		cout << "|";
+		for (int j = 0; j < (int)(bestResult[0].substr(i, breakLine)).length(); ++j)
+		{
+			if(bestResult[0][j+i] == bestResult[1][j+i])
+				cout << "|";
 
-		// 	else if(bestResult[0][j+i] == '-' || bestResult[1][j+i] == '-')
-		// 		cout << " ";
+			else if(bestResult[0][j+i] == '-' || bestResult[1][j+i] == '-')
+				cout << " ";
 
-		// 	else
-		// 		cout << "!";
-		// }
+			else
+				cout << "!";
+		}
 
-		// cout << endl;
+		cout << endl;
 
-		// cout << blockFileName << " " << bestResult[1].substr(i, breakLine) << endl;
+		cout << blockFileName << " " << bestResult[1].substr(i, breakLine) << endl;
 	}
 
+	cout << endl;
+}
+
+inline void
+BlockAlignment::verify()
+{
+	int chars = 0;
+	int hits = 0;
+
+	string original;
+
+	// Concatenate originalBlockData
+	for (int i = 0; i < originalBlockData.size(); ++i)
+	{
+		for (int j = 0; j < originalBlockData[i].size(); ++j)
+		{
+			original += originalBlockData[i][j];
+		}
+	}
+
+	for (int i = 0; i < bestResult[1].size(); ++i)
+	{
+		if (bestResult[1][i] == '?')
+		{
+			++chars;
+
+			if (bestResult[0][i] == original[i])
+			{
+				++hits;
+			}
+		}
+	}
+
+	// cout << bestResult[0] << endl;
+	// cout << bestResult[1] << endl;
+	// cout << original << endl << endl;
+
+	cout << "Number of chars ?: " << chars << endl;
+	cout << "Numer of hits: " << hits << endl;
+	cout << "Hits percentage: " << (double)hits*100/chars << "%" << endl << endl;
 	cout << "\n\n\n";
 }

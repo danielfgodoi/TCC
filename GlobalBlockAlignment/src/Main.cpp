@@ -4,6 +4,7 @@ int main(int argc, char const *argv[])
 {
 	clock_t startTime = clock();
 	string fileType;
+	string originalBlockFileName;
 	string blockFileName;
 	vector<string> textFileNameList;
 
@@ -21,7 +22,7 @@ int main(int argc, char const *argv[])
 		if (fileType == "-t")
 		{
 			int i = 2;
-			while (i < argc - 2)
+			while (i < argc - 4)
 			{
 				textFileNameList.push_back(argv[i]);
 				++i;
@@ -32,6 +33,18 @@ int main(int argc, char const *argv[])
 			if (fileType == "-b")
 			{
 				++i;
+				blockFileName = argv[i];
+
+				i += 2;
+				originalBlockFileName = argv[i];
+			}
+
+			else if (fileType == "-o")
+			{
+				++i;
+				originalBlockFileName = argv[i];
+
+				i += 2;
 				blockFileName = argv[i];
 			}
 
@@ -48,13 +61,80 @@ int main(int argc, char const *argv[])
 			
 			int i = 3;
 			fileType = argv[i];
-			if (fileType == "-t")
+			if (fileType == "-o")
 			{
 				++i;
+				originalBlockFileName = argv[i];
+
+				i += 2;
 				while (i < argc)
 				{
 					textFileNameList.push_back(argv[i]);
 					++i;
+				}
+			}
+
+			else if (fileType == "-t")
+			{
+				++i;
+				while (i < argc && fileType != "-o")
+				{
+					textFileNameList.push_back(argv[i]);
+
+					++i;
+					fileType = argv[i];
+				}
+
+				fileType = argv[i];
+				if (fileType == "-o")
+				{
+					++i;
+					originalBlockFileName = argv[i];
+				}
+			}
+
+			else
+			{
+				cout << "Missing argument \"-t\"! Please try again...\n\n";
+				exit(EXIT_FAILURE);
+			}
+		}
+
+		else if (fileType == "-o")
+		{
+			originalBlockFileName = argv[2];
+
+			int i = 3;
+			fileType = argv[i];
+			if (fileType == "-b")
+			{
+				++i;
+				blockFileName = argv[i];
+
+				i += 2;
+				while (i < argc)
+				{
+					textFileNameList.push_back(argv[i]);
+					++i;
+				}
+			}
+
+			else if (fileType == "-t")
+			{
+				++i;
+				while (i < argc && fileType != "-b")
+				{
+					textFileNameList.push_back(argv[i]);
+
+					++i;
+					fileType = argv[i];
+				}
+
+				fileType = argv[i];
+				if (fileType == "-b")
+				{
+					++i;
+					blockFileName = argv[i];
 				}
 			}
 
@@ -71,7 +151,7 @@ int main(int argc, char const *argv[])
 			exit(EXIT_FAILURE);			
 		}
 
-		BlockAlignment blockAlignment(textFileNameList, blockFileName);
+		BlockAlignment blockAlignment(textFileNameList, blockFileName, originalBlockFileName);
 		blockAlignment.align();
 	}
 
