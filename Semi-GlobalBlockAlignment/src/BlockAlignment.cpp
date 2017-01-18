@@ -399,51 +399,14 @@ BlockAlignment::print()
 
 		for (int i = 0; i < sequenceSize; i += breakLine)
 		{
-			// int longerFileName = (int)textFileName.length();
-
-			// if ((int)blockFileName.length() > longerFileName)
-			// {
-			// 	longerFileName = (int)blockFileName.length();
-			// 	cout << textFileName << " ";
-			// 	for (int i = 0; i < (int)blockFileName.length() - (int)textFileName.length(); ++i)
-			// 	{
-			// 		cout << " ";
-			// 	}
-
-			// 	cout << bestResult[r][0].substr(i, breakLine) << endl;
-			// }
-
-			// else
-			// 	cout << textFileName << " " << bestResult[r][0].substr(i, breakLine) << endl;
-
-
-			// for (int j = 0; j < longerFileName + 1; ++j)
-			// {
-			// 	cout << " ";
-			// }
-
-			// for (int j = 0; j < (int)(bestResult[r][0].substr(i, breakLine)).length(); ++j)
-			// {
-			// 	if(bestResult[r][0][j+i] == bestResult[r][1][j+i])
-			// 		cout << "|";
-
-			// 	else if(bestResult[r][0][j+i] == '-' || bestResult[r][1][j+i] == '-')
-			// 		cout << " ";
-
-			// 	else
-			// 		cout << "!";
-			// }
-
-			// cout << endl;
-
-			// cout << blockFileName << " " << bestResult[r][1].substr(i, breakLine) << endl;
+			// 1
 		}
 
 	// Verify is going to be here because we go through the bestResults array
 	int chars = 0;
 	int hits = 0;
 
-	string original;
+	string original = "";
 
 	// Concatenate originalBlockData
 
@@ -467,7 +430,7 @@ BlockAlignment::print()
 
 		if (bestResult[r][1][j] == '?')
 		{
-			++chars;
+			// ++chars;
 
 			if (bestResult[r][0][j] == original[i])
 			{
@@ -476,17 +439,31 @@ BlockAlignment::print()
 		}
 	}
 
-	// cout << bestResult[r][0] << endl;
-	// cout << bestResult[r][1] << endl;
-	// for (int i = 0; i < shift; ++i)
-	// {
-	// 	cout << " ";
-	// }
-	// cout << original << endl << endl;
+	// Go through all block and count the number of '?' chars
+	for (int i = 0; i < blockSizeN; ++i)
+		for (int j = 0; j < blockSizeM[i]; ++j)
+			if (blockSequence[i][j] == '?')
+				++chars;
 
+	cout << endl;
+	cout << bestResult[r][0] << endl;
+	cout << bestResult[r][1] << endl;
+	for (int i = 0; i < shift; ++i)
+	{
+		cout << " ";
+	}
+	cout << original << endl << endl;
+
+	double percent;
+	if ((double)hits*100/chars > 0)
+		percent = (double)hits*100/chars;
+	else
+		percent = 0;
+
+	cout << endl;
 	cout << "Number of chars ?: " << chars << endl;
 	cout << "Numer of hits: " << hits << endl;
-	cout << "Hits percentage: " << (double)hits*100/chars << "%" << endl << endl;
+	cout << "Hits percentage: " << percent << "%" << endl << endl;
 
 	cout << "\n\n\n";
 	}

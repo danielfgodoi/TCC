@@ -317,44 +317,44 @@ BlockAlignment::print()
 
 	for (int i = 0; i < sequenceSize; i += breakLine)
 	{
-		int longerFileName = (int)textFileName.length();
+		// int longerFileName = (int)textFileName.length();
 
-		if ((int)blockFileName.length() > longerFileName)
-		{
-			longerFileName = (int)blockFileName.length();
-			cout << textFileName << " ";
-			for (int i = 0; i < (int)blockFileName.length() - (int)textFileName.length(); ++i)
-			{
-				cout << " ";
-			}
+		// if ((int)blockFileName.length() > longerFileName)
+		// {
+		// 	longerFileName = (int)blockFileName.length();
+		// 	cout << textFileName << " ";
+		// 	for (int i = 0; i < (int)blockFileName.length() - (int)textFileName.length(); ++i)
+		// 	{
+		// 		cout << " ";
+		// 	}
 
-			cout << bestResult[0].substr(i, breakLine) << endl;
-		}
+		// 	cout << bestResult[0].substr(i, breakLine) << endl;
+		// }
 
-		else
-			cout << textFileName << " " << bestResult[0].substr(i, breakLine) << endl;
+		// else
+		// 	cout << textFileName << " " << bestResult[0].substr(i, breakLine) << endl;
 
 
-		for (int j = 0; j < longerFileName + 1; ++j)
-		{
-			cout << " ";
-		}
+		// for (int j = 0; j < longerFileName + 1; ++j)
+		// {
+		// 	cout << " ";
+		// }
 
-		for (int j = 0; j < (int)(bestResult[0].substr(i, breakLine)).length(); ++j)
-		{
-			if(bestResult[0][j+i] == bestResult[1][j+i])
-				cout << "|";
+		// for (int j = 0; j < (int)(bestResult[0].substr(i, breakLine)).length(); ++j)
+		// {
+		// 	if(bestResult[0][j+i] == bestResult[1][j+i])
+		// 		cout << "|";
 
-			else if(bestResult[0][j+i] == '-' || bestResult[1][j+i] == '-')
-				cout << " ";
+		// 	else if(bestResult[0][j+i] == '-' || bestResult[1][j+i] == '-')
+		// 		cout << " ";
 
-			else
-				cout << "!";
-		}
+		// 	else
+		// 		cout << "!";
+		// }
 
-		cout << endl;
+		// cout << endl;
 
-		cout << blockFileName << " " << bestResult[1].substr(i, breakLine) << endl;
+		// cout << blockFileName << " " << bestResult[1].substr(i, breakLine) << endl;
 	}
 
 	cout << endl;
@@ -390,12 +390,21 @@ BlockAlignment::verify()
 		}
 	}
 
-	// cout << bestResult[0] << endl;
-	// cout << bestResult[1] << endl;
-	// cout << original << endl << endl;
+
+	cout << endl;
+	cout << bestResult[0] << endl;
+	cout << bestResult[1] << endl;
+	cout << original << endl << endl;
+
+	double percent;
+	if ((double)hits*100/chars > 0)
+		percent = (double)hits*100/chars;
+	else
+		percent = 0;
+
 
 	cout << "Number of chars ?: " << chars << endl;
 	cout << "Numer of hits: " << hits << endl;
-	cout << "Hits percentage: " << (double)hits*100/chars << "%" << endl << endl;
+	cout << "Hits percentage: " << percent << "%" << endl << endl;
 	cout << "\n\n\n";
 }

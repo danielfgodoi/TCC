@@ -109,6 +109,7 @@ BlockAlignment::align()
 
 		textSequenceResult.clear();
 		blockSequenceResult.clear();
+
 		alignment.clear();
 		
 		n = textSize + 1;
@@ -207,11 +208,14 @@ BlockAlignment::localAlignment(string textSequence, string blockSequence)
 		}
 	}
 
-	cout << "i: " << i << ", j: " << j << endl << endl;
+	// cout << "i: " << i << ", j: " << j << endl << endl;
 	flag = j;
 	
 	textSequenceResult = string(textSequenceResult.rbegin(), textSequenceResult.rend());
 	blockSequenceResult = string(blockSequenceResult.rbegin(), blockSequenceResult.rend());
+
+	// start = j;
+	// end = maxJ;
 
 	// cout << similarity << endl;
 	// cout << textSequenceResult << endl;
@@ -334,44 +338,44 @@ BlockAlignment::print()
 
 	for (int i = 0; i < sequenceSize; i += breakLine)
 	{
-		int longerFileName = (int)textFileName.length();
+		// int longerFileName = (int)textFileName.length();
 
-		if ((int)blockFileName.length() > longerFileName)
-		{
-			longerFileName = (int)blockFileName.length();
-			cout << textFileName << " ";
-			for (int i = 0; i < (int)blockFileName.length() - (int)textFileName.length(); ++i)
-			{
-				cout << " ";
-			}
+		// if ((int)blockFileName.length() > longerFileName)
+		// {
+		// 	longerFileName = (int)blockFileName.length();
+		// 	cout << textFileName << " ";
+		// 	for (int i = 0; i < (int)blockFileName.length() - (int)textFileName.length(); ++i)
+		// 	{
+		// 		cout << " ";
+		// 	}
 
-			cout << bestResult[0].substr(i, breakLine) << endl;
-		}
+		// 	cout << bestResult[0].substr(i, breakLine) << endl;
+		// }
 
-		else
-			cout << textFileName << " " << bestResult[0].substr(i, breakLine) << endl;
+		// else
+		// 	cout << textFileName << " " << bestResult[0].substr(i, breakLine) << endl;
 
 
-		for (int j = 0; j < longerFileName + 1; ++j)
-		{
-			cout << " ";
-		}
+		// for (int j = 0; j < longerFileName + 1; ++j)
+		// {
+		// 	cout << " ";
+		// }
 
-		for (int j = 0; j < (int)(bestResult[0].substr(i, breakLine)).length(); ++j)
-		{
-			if(bestResult[0][j+i] == bestResult[1][j+i])
-				cout << "|";
+		// for (int j = 0; j < (int)(bestResult[0].substr(i, breakLine)).length(); ++j)
+		// {
+		// 	if(bestResult[0][j+i] == bestResult[1][j+i])
+		// 		cout << "|";
 
-			else if(bestResult[0][j+i] == '-' || bestResult[1][j+i] == '-')
-				cout << " ";
+		// 	else if(bestResult[0][j+i] == '-' || bestResult[1][j+i] == '-')
+		// 		cout << " ";
 
-			else
-				cout << "!";
-		}
+		// 	else
+		// 		cout << "!";
+		// }
 
-		cout << endl;
+		// cout << endl;
 
-		cout << blockFileName << " " << bestResult[1].substr(i, breakLine) << endl;
+		// cout << blockFileName << " " << bestResult[1].substr(i, breakLine) << endl;
 	}
 
 	cout << endl;
@@ -387,7 +391,7 @@ BlockAlignment::verify()
 	{
 		if (bestResult[1][i] == '?')
 		{
-			++chars;
+			// ++chars;
 
 			if (bestResult[0][i] == originalBlockData[i+flag])
 			{
@@ -396,17 +400,29 @@ BlockAlignment::verify()
 		}
 	}
 
-	// cout << "flag: " << flag << endl;
-	// cout << bestResult[0] << endl;
-	// cout << bestResult[1] << endl;
-	// for (int i = flag; i < bestResult[1].size() + flag; ++i)
-	// {
-	// 	cout << originalBlockData[i];
-	// }
-	// cout << endl << endl;
+	// Go through all block and count the number of '?' chars
+	for (int i = 0; i < blockSize; ++i)
+		if (blockSequence[i] == '?')
+			++chars;
+
+	cout << endl;
+	cout << "flag: " << flag << endl;
+	cout << bestResult[0] << endl;
+	cout << bestResult[1] << endl;
+	for (int i = flag; i < bestResult[1].size() + flag; ++i)
+	{
+		cout << originalBlockData[i];
+	}
+	cout << endl << endl;
+
+	double percent;
+	if ((double)hits*100/chars > 0)
+		percent = (double)hits*100/chars;
+	else
+		percent = 0;
 
 	cout << "Number of chars ?: " << chars << endl;
 	cout << "Numer of hits: " << hits << endl;
-	cout << "Hits percentage: " << (double)hits*100/chars << "%" << endl << endl;
+	cout << "Hits percentage: " << percent << "%" << endl << endl;
 	cout << "\n\n\n";
 }

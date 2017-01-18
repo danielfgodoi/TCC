@@ -45,6 +45,9 @@ private:
 	int sIterator;
 	int sMax;
 	int iMax;
+	// Trim control for block
+	// int start;
+	// int end;
 	vector<string> textFileNameList;
 	string textFileName;
 	string blockFileName;

@@ -68,7 +68,7 @@ BlockAlignment::prepareBlock()
 	blockSizeM.resize(blockSizeN);
 
 	bestResult.resize(blockSizeN);
-	bestLine.resize(blockSizeN);
+	bestLine.resize(blockSizeN + 2);
 
 	for (int i = 0; i < blockSizeN; ++i)
 	{
@@ -131,6 +131,9 @@ BlockAlignment::align()
 			sIterator = b;
 			similarity[sIterator] = INT_MIN;
 
+			bestLine[sIterator][2] = INT_MIN;
+			bestLine[sIterator][3] = INT_MIN;
+
 			for (t = 0; t < textSizeN; ++t)
 			{
 				textSequenceResult.clear();
@@ -158,6 +161,7 @@ BlockAlignment::align()
 				}
 			}
 		}
+
 
 		++k;
 
@@ -250,6 +254,9 @@ BlockAlignment::localAlignment(string textSequence, string blockSequence)
 		similarity[sIterator] = local_similarity;
 		bestResult[sIterator][0] = textSequenceResult;
 		bestResult[sIterator][1] = blockSequenceResult;
+
+		bestLine[sIterator][2] = j;
+		bestLine[sIterator][3] = maxJ;
 	}
 
 	// cout << textSequenceResult << endl;
@@ -391,9 +398,12 @@ BlockAlignment::print()
 	int hits = 0;
 
 	string original;
+	int start = bestLine[r][2];
+	int end = bestLine[r][3];
+
+	cout << "start: " << start << ", end: " << end;
 
 	// Concatenate originalBlockData
-
 	int i = bestLine[r-1][1];
 	for (int j = 0; j < originalBlockData[i].size(); ++j)
 	{
@@ -404,22 +414,41 @@ BlockAlignment::print()
 	{
 		if (bestResult[r][1][i] == '?')
 		{
-			++chars;
+			// ++chars;
 
-			if (bestResult[r][0][i] == original[i])
+			if (bestResult[r][0][i] == original[i+start])
 			{
 				++hits;
 			}
 		}
 	}
 
-	// cout << bestResult[r][0] << endl;
-	// cout << bestResult[r][1] << endl;
+	// Go through all block and count the number of '?' chars
+	for (int i = 0; i < blockSizeN; ++i)
+		for (int j = 0; j < blockSizeM[i]; ++j)
+			if (blockSequence[i][j] == '?')
+				++chars;
+	
+	cout << endl;
+	cout << bestResult[r][0] << endl;
+	cout << bestResult[r][1] << endl;
 	// cout << original << endl << endl;
+	for (int i = start; i < end; ++i)
+	{
+		cout << original[i];
+	}
+	cout << endl << endl;
 
+	double percent;
+	if ((double)hits*100/chars > 0)
+		percent = (double)hits*100/chars;
+	else
+		percent = 0;
+
+	cout << endl;
 	cout << "Number of chars ?: " << chars << endl;
 	cout << "Numer of hits: " << hits << endl;
-	cout << "Hits percentage: " << (double)hits*100/chars << "%" << endl << endl;
+	cout << "Hits percentage: " << percent << "%" << endl << endl;
 
 	cout << "\n\n\n";
 	}
