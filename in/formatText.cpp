@@ -1,6 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include <string>
+#include <cctype>
 
 #define breakLine 150
 
@@ -26,14 +27,20 @@ int main(int argc, char const *argv[])
 
 	data = data.substr(0, size);
 
+	int control = 0;
 	for (int i = 0; i < size; ++i)
 	{
 
-		if (i % (breakLine) == 0 && i != 0)
+		if (isprint(data[i]))
 		{
-			cout << endl;
+			if (control % (breakLine) == 0 && control != 0)
+			{
+				cout << endl;
+			}
+			
+			cout << data[i];
+			++control;
 		}
-		cout << data[i];
 	}
 
 	return 0;
