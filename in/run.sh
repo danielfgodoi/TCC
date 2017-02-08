@@ -125,4 +125,63 @@
 
 
 
-# # NEXT STEP
+# # DETERIORATE FRAGMENTS
+./detFragments fragment/t1-f1.txt > detFragment/t1-f1.txt 5
+./detFragments fragment/t1-f2.txt > detFragment/t1-f2.txt 10
+./detFragments fragment/t1-f3.txt > detFragment/t1-f3.txt 20
+./detFragments fragment/t1-f4.txt > detFragment/t1-f4.txt 40
+./detFragments fragment/t1-f5.txt > detFragment/t1-f5.txt 80
+
+./detFragments fragment/t2-f1.txt > detFragment/t2-f1.txt 5
+./detFragments fragment/t2-f2.txt > detFragment/t2-f2.txt 10
+./detFragments fragment/t2-f3.txt > detFragment/t2-f3.txt 20
+./detFragments fragment/t2-f4.txt > detFragment/t2-f4.txt 40
+./detFragments fragment/t2-f5.txt > detFragment/t2-f5.txt 80
+
+./detFragments fragment/t3-f1.txt > detFragment/t3-f1.txt 5
+./detFragments fragment/t3-f2.txt > detFragment/t3-f2.txt 10
+./detFragments fragment/t3-f3.txt > detFragment/t3-f3.txt 20
+./detFragments fragment/t3-f4.txt > detFragment/t3-f4.txt 40
+./detFragments fragment/t3-f5.txt > detFragment/t3-f5.txt 80
+
+./detFragments fragment/t4-f1.txt > detFragment/t4-f1.txt 5
+./detFragments fragment/t4-f2.txt > detFragment/t4-f2.txt 10
+./detFragments fragment/t4-f3.txt > detFragment/t4-f3.txt 20
+./detFragments fragment/t4-f4.txt > detFragment/t4-f4.txt 40
+./detFragments fragment/t4-f5.txt > detFragment/t4-f5.txt 80
+
+./detFragments fragment/t5-f1.txt > detFragment/t5-f1.txt 5
+./detFragments fragment/t5-f2.txt > detFragment/t5-f2.txt 10
+./detFragments fragment/t5-f3.txt > detFragment/t5-f3.txt 20
+./detFragments fragment/t5-f4.txt > detFragment/t5-f4.txt 40
+./detFragments fragment/t5-f5.txt > detFragment/t5-f5.txt 80
+
+./detFragments fragment/t6-f1.txt > detFragment/t6-f1.txt 5
+./detFragments fragment/t6-f2.txt > detFragment/t6-f2.txt 10
+./detFragments fragment/t6-f3.txt > detFragment/t6-f3.txt 20
+./detFragments fragment/t6-f4.txt > detFragment/t6-f4.txt 40
+./detFragments fragment/t6-f5.txt > detFragment/t6-f5.txt 80
+
+./detFragments fragment/t7-f1.txt > detFragment/t7-f1.txt 5
+./detFragments fragment/t7-f2.txt > detFragment/t7-f2.txt 10
+./detFragments fragment/t7-f3.txt > detFragment/t7-f3.txt 20
+./detFragments fragment/t7-f4.txt > detFragment/t7-f4.txt 40
+./detFragments fragment/t7-f5.txt > detFragment/t7-f5.txt 80
+
+./detFragments fragment/t8-f1.txt > detFragment/t8-f1.txt 5
+./detFragments fragment/t8-f2.txt > detFragment/t8-f2.txt 10
+./detFragments fragment/t8-f3.txt > detFragment/t8-f3.txt 20
+./detFragments fragment/t8-f4.txt > detFragment/t8-f4.txt 40
+./detFragments fragment/t8-f5.txt > detFragment/t8-f5.txt 80
+
+./detFragments fragment/t9-f1.txt > detFragment/t9-f1.txt 5
+./detFragments fragment/t9-f2.txt > detFragment/t9-f2.txt 10
+./detFragments fragment/t9-f3.txt > detFragment/t9-f3.txt 20
+./detFragments fragment/t9-f4.txt > detFragment/t9-f4.txt 40
+./detFragments fragment/t9-f5.txt > detFragment/t9-f5.txt 80
+
+./detFragments fragment/t10-f1.txt > detFragment/t10-f1.txt 5 
+./detFragments fragment/t10-f2.txt > detFragment/t10-f2.txt 10
+./detFragments fragment/t10-f3.txt > detFragment/t10-f3.txt 20
+./detFragments fragment/t10-f4.txt > detFragment/t10-f4.txt 40
+./detFragments fragment/t10-f5.txt > detFragment/t10-f5.txt 80

@@ -25,7 +25,9 @@ int main(int argc, char const *argv[])
 		data += line + "\n";
 	}
 
-	int size = data.size();
+	int size = data.size() - 1;
+	// data = data.substr(0, size);
+	
 	// for (int i = 0; i < size; ++i)
 	// {
 	// 	cout << data[i];
@@ -93,7 +95,7 @@ int main(int argc, char const *argv[])
 	}
 
 	fragment = fragment.substr(0, fragment.size()-1);
-	cout << fragment << endl;
+	cout << fragment;
 	
 	return 0;
 }
