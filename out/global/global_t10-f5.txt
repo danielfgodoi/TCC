@@ -1,0 +1,130 @@
+
+> Best result and coordinate for files in/text/t1.txt and in/detFragment/t10-f5.txt
+S	N	M
+-----------------
+-515	22	0
+
+Number of chars ?: 410
+Numer of hits: 35
+Hits percentage: 8.53659%
+
+
+
+
+
+> Best result and coordinate for files in/text/t2.txt and in/detFragment/t10-f5.txt
+S	N	M
+-----------------
+-517	2	63
+
+Number of chars ?: 410
+Numer of hits: 12
+Hits percentage: 2.92683%
+
+
+
+
+
+> Best result and coordinate for files in/text/t3.txt and in/detFragment/t10-f5.txt
+S	N	M
+-----------------
+-513	22	8
+
+Number of chars ?: 410
+Numer of hits: 36
+Hits percentage: 8.78049%
+
+
+
+
+
+> Best result and coordinate for files in/text/t4.txt and in/detFragment/t10-f5.txt
+S	N	M
+-----------------
+-524	0	41
+
+Number of chars ?: 410
+Numer of hits: 16
+Hits percentage: 3.90244%
+
+
+
+
+
+> Best result and coordinate for files in/text/t5.txt and in/detFragment/t10-f5.txt
+S	N	M
+-----------------
+-535	15	3
+
+Number of chars ?: 410
+Numer of hits: 11
+Hits percentage: 2.68293%
+
+
+
+
+
+> Best result and coordinate for files in/text/t6.txt and in/detFragment/t10-f5.txt
+S	N	M
+-----------------
+-521	4	78
+
+Number of chars ?: 410
+Numer of hits: 19
+Hits percentage: 4.63415%
+
+
+
+
+
+> Best result and coordinate for files in/text/t7.txt and in/detFragment/t10-f5.txt
+S	N	M
+-----------------
+-522	14	20
+
+Number of chars ?: 410
+Numer of hits: 27
+Hits percentage: 6.58537%
+
+
+
+
+
+> Best result and coordinate for files in/text/t8.txt and in/detFragment/t10-f5.txt
+S	N	M
+-----------------
+-527	23	66
+
+Number of chars ?: 410
+Numer of hits: 9
+Hits percentage: 2.19512%
+
+
+
+
+
+> Best result and coordinate for files in/text/t9.txt and in/detFragment/t10-f5.txt
+S	N	M
+-----------------
+-525	0	78
+
+Number of chars ?: 410
+Numer of hits: 40
+Hits percentage: 9.7561%
+
+
+
+
+
+> Best result and coordinate for files in/text/t10.txt and in/detFragment/t10-f5.txt
+S	N	M
+-----------------
+21	0	27
+
+Number of chars ?: 410
+Numer of hits: 101
+Hits percentage: 24.6341%
+
+
+
+

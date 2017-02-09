@@ -1,0 +1,130 @@
+
+> Best result and text-block best line in/text/t1.txt and in/detFragment/t2-f1.txt
+Similarity
+-----------------
+32
+
+Number of chars ?: 69
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t2.txt and in/detFragment/t2-f1.txt
+Similarity
+-----------------
+67
+
+Number of chars ?: 69
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t3.txt and in/detFragment/t2-f1.txt
+Similarity
+-----------------
+32
+
+Number of chars ?: 69
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t4.txt and in/detFragment/t2-f1.txt
+Similarity
+-----------------
+11
+
+Number of chars ?: 69
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t5.txt and in/detFragment/t2-f1.txt
+Similarity
+-----------------
+10
+
+Number of chars ?: 69
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t6.txt and in/detFragment/t2-f1.txt
+Similarity
+-----------------
+14
+
+Number of chars ?: 69
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t7.txt and in/detFragment/t2-f1.txt
+Similarity
+-----------------
+15
+
+Number of chars ?: 69
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t8.txt and in/detFragment/t2-f1.txt
+Similarity
+-----------------
+13
+
+Number of chars ?: 69
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t9.txt and in/detFragment/t2-f1.txt
+Similarity
+-----------------
+11
+
+Number of chars ?: 69
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t10.txt and in/detFragment/t2-f1.txt
+Similarity
+-----------------
+11
+
+Number of chars ?: 69
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+

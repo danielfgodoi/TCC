@@ -357,7 +357,7 @@ BlockAlignment::print()
 		// cout << blockFileName << " " << bestResult[1].substr(i, breakLine) << endl;
 	}
 
-	cout << endl;
+	// cout << endl;
 }
 
 inline void
@@ -391,10 +391,10 @@ BlockAlignment::verify()
 	}
 
 
-	cout << endl;
-	cout << bestResult[0] << endl;
-	cout << bestResult[1] << endl;
-	cout << original << endl << endl;
+	// cout << endl;
+	// cout << bestResult[0] << endl;
+	// cout << bestResult[1] << endl;
+	// cout << original << endl << endl;
 
 	double percent;
 	if ((double)hits*100/chars > 0)

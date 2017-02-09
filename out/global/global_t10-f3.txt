@@ -1,0 +1,130 @@
+
+> Best result and coordinate for files in/text/t1.txt and in/detFragment/t10-f3.txt
+S	N	M
+-----------------
+-382	8	75
+
+Number of chars ?: 163
+Numer of hits: 5
+Hits percentage: 3.06748%
+
+
+
+
+
+> Best result and coordinate for files in/text/t2.txt and in/detFragment/t10-f3.txt
+S	N	M
+-----------------
+-385	3	43
+
+Number of chars ?: 163
+Numer of hits: 9
+Hits percentage: 5.52147%
+
+
+
+
+
+> Best result and coordinate for files in/text/t3.txt and in/detFragment/t10-f3.txt
+S	N	M
+-----------------
+-383	8	79
+
+Number of chars ?: 163
+Numer of hits: 7
+Hits percentage: 4.29448%
+
+
+
+
+
+> Best result and coordinate for files in/text/t4.txt and in/detFragment/t10-f3.txt
+S	N	M
+-----------------
+-378	14	78
+
+Number of chars ?: 163
+Numer of hits: 6
+Hits percentage: 3.68098%
+
+
+
+
+
+> Best result and coordinate for files in/text/t5.txt and in/detFragment/t10-f3.txt
+S	N	M
+-----------------
+-390	11	58
+
+Number of chars ?: 163
+Numer of hits: 5
+Hits percentage: 3.06748%
+
+
+
+
+
+> Best result and coordinate for files in/text/t6.txt and in/detFragment/t10-f3.txt
+S	N	M
+-----------------
+-375	3	46
+
+Number of chars ?: 163
+Numer of hits: 6
+Hits percentage: 3.68098%
+
+
+
+
+
+> Best result and coordinate for files in/text/t7.txt and in/detFragment/t10-f3.txt
+S	N	M
+-----------------
+-384	17	2
+
+Number of chars ?: 163
+Numer of hits: 26
+Hits percentage: 15.9509%
+
+
+
+
+
+> Best result and coordinate for files in/text/t8.txt and in/detFragment/t10-f3.txt
+S	N	M
+-----------------
+-388	2	70
+
+Number of chars ?: 163
+Numer of hits: 3
+Hits percentage: 1.84049%
+
+
+
+
+
+> Best result and coordinate for files in/text/t9.txt and in/detFragment/t10-f3.txt
+S	N	M
+-----------------
+-392	6	83
+
+Number of chars ?: 163
+Numer of hits: 6
+Hits percentage: 3.68098%
+
+
+
+
+
+> Best result and coordinate for files in/text/t10.txt and in/detFragment/t10-f3.txt
+S	N	M
+-----------------
+483	0	8
+
+Number of chars ?: 163
+Numer of hits: 6
+Hits percentage: 3.68098%
+
+
+
+

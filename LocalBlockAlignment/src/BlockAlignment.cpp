@@ -401,7 +401,7 @@ BlockAlignment::print()
 	int start = bestLine[r][2];
 	int end = bestLine[r][3];
 
-	cout << "start: " << start << ", end: " << end;
+	// cout << "start: " << start << ", end: " << end;
 
 	// Concatenate originalBlockData
 	int i = bestLine[r-1][1];
@@ -429,15 +429,15 @@ BlockAlignment::print()
 			if (blockSequence[i][j] == '?')
 				++chars;
 	
-	cout << endl;
-	cout << bestResult[r][0] << endl;
-	cout << bestResult[r][1] << endl;
+	// cout << endl;
+	// cout << bestResult[r][0] << endl;
+	// cout << bestResult[r][1] << endl;
 	// cout << original << endl << endl;
-	for (int i = start; i < end; ++i)
-	{
-		cout << original[i];
-	}
-	cout << endl << endl;
+	// for (int i = start; i < end; ++i)
+	// {
+	// 	cout << original[i];
+	// }
+	// cout << endl << endl;
 
 	double percent;
 	if ((double)hits*100/chars > 0)
@@ -445,7 +445,7 @@ BlockAlignment::print()
 	else
 		percent = 0;
 
-	cout << endl;
+	// cout << endl;
 	cout << "Number of chars ?: " << chars << endl;
 	cout << "Numer of hits: " << hits << endl;
 	cout << "Hits percentage: " << percent << "%" << endl << endl;

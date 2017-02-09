@@ -1,0 +1,1430 @@
+
+> Best result and text-block best line in/text/t1.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+5	11	1
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t1.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+5	28	2
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t1.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+5	16	3
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t1.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+8	15	4
+
+Number of chars ?: 118
+Numer of hits: 3
+Hits percentage: 2.54237%
+
+
+
+
+
+> Best result and text-block best line in/text/t1.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+8	14	5
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t1.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+6	49	6
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t1.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+5	4	7
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t1.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+5	26	8
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t1.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+6	1	9
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t1.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+7	27	10
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t1.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+10	32	11
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t2.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+6	7	1
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t2.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+5	34	2
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t2.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+5	9	3
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t2.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+7	19	4
+
+Number of chars ?: 118
+Numer of hits: 1
+Hits percentage: 0.847458%
+
+
+
+
+
+> Best result and text-block best line in/text/t2.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+10	16	5
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t2.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+6	8	6
+
+Number of chars ?: 118
+Numer of hits: 1
+Hits percentage: 0.847458%
+
+
+
+
+
+> Best result and text-block best line in/text/t2.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+5	10	7
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t2.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+5	6	8
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t2.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+6	6	9
+
+Number of chars ?: 118
+Numer of hits: 1
+Hits percentage: 0.847458%
+
+
+
+
+
+> Best result and text-block best line in/text/t2.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+6	9	10
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t2.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+7	19	11
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t3.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+6	5	1
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t3.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+5	28	2
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t3.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+5	16	3
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t3.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+8	15	4
+
+Number of chars ?: 118
+Numer of hits: 3
+Hits percentage: 2.54237%
+
+
+
+
+
+> Best result and text-block best line in/text/t3.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+8	14	5
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t3.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+6	49	6
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t3.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+5	4	7
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t3.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+5	26	8
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t3.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+6	1	9
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t3.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+7	28	10
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t3.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+10	32	11
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t4.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+4	1	1
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t4.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+4	12	2
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t4.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+6	30	3
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t4.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+6	14	4
+
+Number of chars ?: 118
+Numer of hits: 1
+Hits percentage: 0.847458%
+
+
+
+
+
+> Best result and text-block best line in/text/t4.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+10	12	5
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t4.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+5	6	6
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t4.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+5	3	7
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t4.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+4	2	8
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t4.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+8	26	9
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t4.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+5	13	10
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t4.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+7	11	11
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t5.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+8	1	1
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t5.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+5	6	2
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t5.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+5	3	3
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t5.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+5	2	4
+
+Number of chars ?: 118
+Numer of hits: 1
+Hits percentage: 0.847458%
+
+
+
+
+
+> Best result and text-block best line in/text/t5.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+10	8	5
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t5.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+5	3	6
+
+Number of chars ?: 118
+Numer of hits: 1
+Hits percentage: 0.847458%
+
+
+
+
+
+> Best result and text-block best line in/text/t5.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+5	5	7
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t5.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+4	1	8
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t5.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+8	19	9
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t5.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+5	8	10
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t5.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+7	30	11
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t6.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+5	16	1
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t6.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+5	9	2
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t6.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+5	10	3
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t6.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+6	12	4
+
+Number of chars ?: 118
+Numer of hits: 1
+Hits percentage: 0.847458%
+
+
+
+
+
+> Best result and text-block best line in/text/t6.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+9	29	5
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t6.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+5	5	6
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t6.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+5	17	7
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t6.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+4	1	8
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t6.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+7	23	9
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t6.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+7	13	10
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t6.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+10	18	11
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t7.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+5	2	1
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t7.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+5	13	2
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t7.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+5	6	3
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t7.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+5	8	4
+
+Number of chars ?: 118
+Numer of hits: 1
+Hits percentage: 0.847458%
+
+
+
+
+
+> Best result and text-block best line in/text/t7.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+10	27	5
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t7.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+6	4	6
+
+Number of chars ?: 118
+Numer of hits: 1
+Hits percentage: 0.847458%
+
+
+
+
+
+> Best result and text-block best line in/text/t7.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+5	20	7
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t7.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+5	21	8
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t7.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+7	21	9
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t7.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+6	1	10
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t7.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+14	18	11
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t8.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+5	12	1
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t8.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+5	2	2
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t8.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+5	23	3
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t8.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+6	3	4
+
+Number of chars ?: 118
+Numer of hits: 1
+Hits percentage: 0.847458%
+
+
+
+
+
+> Best result and text-block best line in/text/t8.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+10	7	5
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t8.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+4	5	6
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t8.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+6	9	7
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t8.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+5	4	8
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t8.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+6	1	9
+
+Number of chars ?: 118
+Numer of hits: 1
+Hits percentage: 0.847458%
+
+
+
+
+
+> Best result and text-block best line in/text/t8.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+6	11	10
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t8.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+7	3	11
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t9.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+32	1	1
+
+Number of chars ?: 118
+Numer of hits: 10
+Hits percentage: 8.47458%
+
+
+
+
+
+> Best result and text-block best line in/text/t9.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+21	2	2
+
+Number of chars ?: 118
+Numer of hits: 9
+Hits percentage: 7.62712%
+
+
+
+
+
+> Best result and text-block best line in/text/t9.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+29	3	3
+
+Number of chars ?: 118
+Numer of hits: 11
+Hits percentage: 9.32203%
+
+
+
+
+
+> Best result and text-block best line in/text/t9.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+24	4	4
+
+Number of chars ?: 118
+Numer of hits: 13
+Hits percentage: 11.0169%
+
+
+
+
+
+> Best result and text-block best line in/text/t9.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+35	5	5
+
+Number of chars ?: 118
+Numer of hits: 5
+Hits percentage: 4.23729%
+
+
+
+
+
+> Best result and text-block best line in/text/t9.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+25	6	6
+
+Number of chars ?: 118
+Numer of hits: 13
+Hits percentage: 11.0169%
+
+
+
+
+
+> Best result and text-block best line in/text/t9.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+23	7	7
+
+Number of chars ?: 118
+Numer of hits: 14
+Hits percentage: 11.8644%
+
+
+
+
+
+> Best result and text-block best line in/text/t9.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+38	8	8
+
+Number of chars ?: 118
+Numer of hits: 6
+Hits percentage: 5.08475%
+
+
+
+
+
+> Best result and text-block best line in/text/t9.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+23	9	9
+
+Number of chars ?: 118
+Numer of hits: 7
+Hits percentage: 5.9322%
+
+
+
+
+
+> Best result and text-block best line in/text/t9.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+53	10	10
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t9.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+53	11	11
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t10.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+7	10	1
+
+Number of chars ?: 118
+Numer of hits: 2
+Hits percentage: 1.69492%
+
+
+
+
+
+> Best result and text-block best line in/text/t10.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+5	3	2
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t10.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+5	4	3
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t10.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+7	20	4
+
+Number of chars ?: 118
+Numer of hits: 1
+Hits percentage: 0.847458%
+
+
+
+
+
+> Best result and text-block best line in/text/t10.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+10	18	5
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t10.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+4	5	6
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t10.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+5	2	7
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t10.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+5	16	8
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t10.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+10	19	9
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t10.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+7	2	10
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and text-block best line in/text/t10.txt and in/detFragment/t9-f3.txt
+S	TL	BL
+-----------------
+11	21	11
+
+Number of chars ?: 118
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+

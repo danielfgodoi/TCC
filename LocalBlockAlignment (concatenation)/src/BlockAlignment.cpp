@@ -378,7 +378,7 @@ BlockAlignment::print()
 		// cout << blockFileName << " " << bestResult[1].substr(i, breakLine) << endl;
 	}
 
-	cout << endl;
+	// cout << endl;
 }
 
 inline void
@@ -405,15 +405,15 @@ BlockAlignment::verify()
 		if (blockSequence[i] == '?')
 			++chars;
 
-	cout << endl;
-	cout << "flag: " << flag << endl;
-	cout << bestResult[0] << endl;
-	cout << bestResult[1] << endl;
-	for (int i = flag; i < bestResult[1].size() + flag; ++i)
-	{
-		cout << originalBlockData[i];
-	}
-	cout << endl << endl;
+	// cout << endl;
+	// cout << "flag: " << flag << endl;
+	// cout << bestResult[0] << endl;
+	// cout << bestResult[1] << endl;
+	// for (int i = flag; i < bestResult[1].size() + flag; ++i)
+	// {
+	// 	cout << originalBlockData[i];
+	// }
+	// cout << endl << endl;
 
 	double percent;
 	if ((double)hits*100/chars > 0)

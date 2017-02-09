@@ -445,14 +445,14 @@ BlockAlignment::print()
 			if (blockSequence[i][j] == '?')
 				++chars;
 
-	cout << endl;
-	cout << bestResult[r][0] << endl;
-	cout << bestResult[r][1] << endl;
-	for (int i = 0; i < shift; ++i)
-	{
-		cout << " ";
-	}
-	cout << original << endl << endl;
+	// cout << endl;
+	// cout << bestResult[r][0] << endl;
+	// cout << bestResult[r][1] << endl;
+	// for (int i = 0; i < shift; ++i)
+	// {
+	// 	cout << " ";
+	// }
+	// cout << original << endl << endl;
 
 	double percent;
 	if ((double)hits*100/chars > 0)
@@ -460,7 +460,7 @@ BlockAlignment::print()
 	else
 		percent = 0;
 
-	cout << endl;
+	// cout << endl;
 	cout << "Number of chars ?: " << chars << endl;
 	cout << "Numer of hits: " << hits << endl;
 	cout << "Hits percentage: " << percent << "%" << endl << endl;

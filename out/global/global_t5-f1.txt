@@ -1,0 +1,130 @@
+
+> Best result and coordinate for files in/text/t1.txt and in/detFragment/t5-f1.txt
+S	N	M
+-----------------
+-431	7	21
+
+Number of chars ?: 50
+Numer of hits: 1
+Hits percentage: 2%
+
+
+
+
+
+> Best result and coordinate for files in/text/t2.txt and in/detFragment/t5-f1.txt
+S	N	M
+-----------------
+-444	23	64
+
+Number of chars ?: 50
+Numer of hits: 1
+Hits percentage: 2%
+
+
+
+
+
+> Best result and coordinate for files in/text/t3.txt and in/detFragment/t5-f1.txt
+S	N	M
+-----------------
+-431	7	30
+
+Number of chars ?: 50
+Numer of hits: 1
+Hits percentage: 2%
+
+
+
+
+
+> Best result and coordinate for files in/text/t4.txt and in/detFragment/t5-f1.txt
+S	N	M
+-----------------
+-442	4	1
+
+Number of chars ?: 50
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and coordinate for files in/text/t5.txt and in/detFragment/t5-f1.txt
+S	N	M
+-----------------
+896	5	0
+
+Number of chars ?: 50
+Numer of hits: 50
+Hits percentage: 100%
+
+
+
+
+
+> Best result and coordinate for files in/text/t6.txt and in/detFragment/t5-f1.txt
+S	N	M
+-----------------
+-434	0	20
+
+Number of chars ?: 50
+Numer of hits: 1
+Hits percentage: 2%
+
+
+
+
+
+> Best result and coordinate for files in/text/t7.txt and in/detFragment/t5-f1.txt
+S	N	M
+-----------------
+-439	15	27
+
+Number of chars ?: 50
+Numer of hits: 0
+Hits percentage: 0%
+
+
+
+
+
+> Best result and coordinate for files in/text/t8.txt and in/detFragment/t5-f1.txt
+S	N	M
+-----------------
+-454	17	31
+
+Number of chars ?: 50
+Numer of hits: 2
+Hits percentage: 4%
+
+
+
+
+
+> Best result and coordinate for files in/text/t9.txt and in/detFragment/t5-f1.txt
+S	N	M
+-----------------
+-448	12	31
+
+Number of chars ?: 50
+Numer of hits: 1
+Hits percentage: 2%
+
+
+
+
+
+> Best result and coordinate for files in/text/t10.txt and in/detFragment/t5-f1.txt
+S	N	M
+-----------------
+-440	0	32
+
+Number of chars ?: 50
+Numer of hits: 1
+Hits percentage: 2%
+
+
+
+

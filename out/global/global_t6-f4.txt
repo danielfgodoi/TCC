@@ -1,0 +1,130 @@
+
+> Best result and coordinate for files in/text/t1.txt and in/detFragment/t6-f4.txt
+S	N	M
+-----------------
+-439	10	73
+
+Number of chars ?: 311
+Numer of hits: 50
+Hits percentage: 16.0772%
+
+
+
+
+
+> Best result and coordinate for files in/text/t2.txt and in/detFragment/t6-f4.txt
+S	N	M
+-----------------
+-439	4	51
+
+Number of chars ?: 311
+Numer of hits: 21
+Hits percentage: 6.75241%
+
+
+
+
+
+> Best result and coordinate for files in/text/t3.txt and in/detFragment/t6-f4.txt
+S	N	M
+-----------------
+-439	10	82
+
+Number of chars ?: 311
+Numer of hits: 40
+Hits percentage: 12.8617%
+
+
+
+
+
+> Best result and coordinate for files in/text/t4.txt and in/detFragment/t6-f4.txt
+S	N	M
+-----------------
+-445	0	65
+
+Number of chars ?: 311
+Numer of hits: 6
+Hits percentage: 1.92926%
+
+
+
+
+
+> Best result and coordinate for files in/text/t5.txt and in/detFragment/t6-f4.txt
+S	N	M
+-----------------
+-451	0	28
+
+Number of chars ?: 311
+Numer of hits: 13
+Hits percentage: 4.18006%
+
+
+
+
+
+> Best result and coordinate for files in/text/t6.txt and in/detFragment/t6-f4.txt
+S	N	M
+-----------------
+148	0	4
+
+Number of chars ?: 311
+Numer of hits: 82
+Hits percentage: 26.3666%
+
+
+
+
+
+> Best result and coordinate for files in/text/t7.txt and in/detFragment/t6-f4.txt
+S	N	M
+-----------------
+-440	15	14
+
+Number of chars ?: 311
+Numer of hits: 14
+Hits percentage: 4.50161%
+
+
+
+
+
+> Best result and coordinate for files in/text/t8.txt and in/detFragment/t6-f4.txt
+S	N	M
+-----------------
+-444	13	48
+
+Number of chars ?: 311
+Numer of hits: 13
+Hits percentage: 4.18006%
+
+
+
+
+
+> Best result and coordinate for files in/text/t9.txt and in/detFragment/t6-f4.txt
+S	N	M
+-----------------
+-446	13	49
+
+Number of chars ?: 311
+Numer of hits: 38
+Hits percentage: 12.2186%
+
+
+
+
+
+> Best result and coordinate for files in/text/t10.txt and in/detFragment/t6-f4.txt
+S	N	M
+-----------------
+-439	7	2
+
+Number of chars ?: 311
+Numer of hits: 8
+Hits percentage: 2.57235%
+
+
+
+
